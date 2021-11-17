@@ -5,8 +5,8 @@ deploy-common:
 deploy-img-mgr:
 	DEPLOY_ENVIRONMENT=dev runway deploy
 destroy-dev:
-		DEPLOY_ENVIRONMENT=dev runway destroy
+	DEPLOY_ENVIRONMENT=dev runway destroy
 destroy-common:
-		DEPLOY_ENVIRONMENT=common runway destroy
+	DEPLOY_ENVIRONMENT=common runway destroy
 destroy-img-mgr:
-		DEPLOY_ENVIRONMENT=dev runway destroy
+	DEPLOY_ENVIRONMENT=dev runway destroy
